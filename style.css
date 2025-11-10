@@ -299,6 +299,18 @@ body {
   transition: 0.3s;
 }
 
+#pet-search {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#pet-search:focus {
+  border-color: #ffef63;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 239, 99, 0.6);
+}
 
 /* ==== SUCCESS STORIES PAGE ==== */
 .main-stories {
@@ -552,3 +564,4 @@ body {
     width: 100%;
   }
 }
+
